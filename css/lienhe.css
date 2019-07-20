@@ -1,0 +1,260 @@
+/*
+@media (min-width: 992px){
+	.container {
+	    max-width: 1426px;
+	}
+}
+@media (min-width: 768px){
+	.container {
+	    max-width: 1186px;
+	}
+	.main .info_contact img {
+	width: 15px;
+	height: 15px;
+}
+}
+@media (min-width: 576px){
+	.container {
+	    max-width: 1006px;
+	}
+}*/
+@media (max-width: 768px) {
+		.main .contact {
+				margin-bottom: 60px;
+		}
+		.main .info_contact .icon {
+			width: 5%;
+			margin-right: 9px;
+		}
+
+}
+@media (min-width: 768px) {
+	.main .info_contact .icon {
+			width: 9%;
+			margin-right: 7px;
+		}
+}
+@media (min-width: 1080px) 
+{
+	.main .info_contact span {
+		font-size: 14px !important;
+	}
+}
+@media (max-width: 1050px) 
+{
+	.main .info_contact span {
+		font-size: 13px !important;
+	}
+}
+@media (max-width: 1020px) 
+{
+	.main .info_contact span {
+		font-size: 12px !important;
+	}
+}
+@media (max-width: 840px) 
+{
+	.main .info_contact span {
+		font-size: 11px !important;
+	}
+}
+@media (max-width: 805px) 
+{
+	.main .info_contact span {
+		font-size: 9.5px !important;
+	}
+}
+@media (max-width: 767px) 
+{
+	.main .info_contact span {
+		font-size: 14px !important;
+	}
+	.main .content {
+		margin-bottom: 40px;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	cursor:pointer;
+}
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+body {
+	line-height: 1.6;
+    margin:0px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+@font-face {
+    font-family: 'San Francisco Medium';
+    src: url('../Font Website/GOTHAM-MEDIUM1_1.OTF');
+}
+@font-face {
+    font-family: 'San Francisco Regular';
+    src: url('../Font Website/SANFRANCISCODISPLAY-REGULAR.OTF');
+}
+.container-fluid {
+	padding: 0 30px;
+}
+.header {
+	height: 80px;
+	background: pink;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eae9e9;
+}
+.main {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+/*css trang liên hệ */
+.main .breadcumb span {
+	font-size: 14px;
+}
+.main .breadcumb {
+	margin-bottom: 50px;
+}
+.main .breadcumb i,
+.main .breadcumb .lienhe {
+	color: #989898;
+}
+.main .breadcumb i {
+	margin: 0 10px;
+
+}
+.main .title {
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'San Francisco Medium';
+}
+.main form span {
+	color: #ed8c4a !important;
+}
+.main form {
+	color: #231f20;
+	font-size: 16px;
+	font-family: 'San Francisco Medium';
+}
+.main form .input,
+.main form textarea {
+	width: 100%;
+	border: 1px solid #ebeaea;
+}
+/*.main .contact {
+	padding-left: 90px;
+}*/
+.main form .btn_submit {
+	background: #17556c;
+	color: #fff;
+	padding: 10px 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.main .info_contact img {
+	width: 100%;
+}
+.main .info_contact span {
+	text-transform: uppercase;
+	font-family: 'San Francisco Medium';
+}
+.main .info_contact .tieude {
+	font-size: 14px;
+	font-family: 'San Francisco Regular';
+}
+.main .info_contact .tieude {
+	width: 86%;
+}
+.main .info_contact .icon_located {
+	width: 15px !important;
+	height: 15px !important;
+	margin-right: 9px;
+}
+/*hết css trang liên hệ */
+/* css trang chi tiet tin tuc */
+.main .caption-text {
+	padding: .4em;
+    font-size: .9em;
+   /*background: rgba(0,0,0,0.05);*/
+    font-style: italic;
+    text-align: center;
+}
+.main .img_tintuc {
+	text-align: center;
+}
+.main .img_tintuc img {
+	margin-bottom: 20px;
+}
+.main .content p {
+	font-family: 'San Francisco Regular';
+}
+.main .right_content {
+	margin-bottom:30px; 
+}
+
+.main .right_content img {
+	margin-bottom: 10px;
+}
+.main .right_content .text-top {
+	font-size: 17px;
+	font-family: 'San Francisco Medium';
+}
+.main  .text-content {
+	font-size: 12px;
+	font-family: 'San Francisco Regular';
+	color: #666666;
+}
+.main .right_content .text-bot {
+	font-size: 13px;
+	font-family: 'San Francisco Regular';
+}
+.main .right_content a {
+	color: #000;
+}
+.main .right_content .chitiet a {
+	background-color: #17556c;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'San Francisco Medium';
+	padding: 10px;
+}
+.main .right_content  .chitiet a:hover {
+    background-color: inherit;
+    color: black;
+    border:1px solid #CCCCCC;
+    transition: all 0.5s;
+}
+.tintuc{
+	margin-bottom: 33px;
+	font-size: 25px;
+	font-family: 'San Francisco Medium';
+}
+/*hết css chi tiết tin tức */
+
+.footer {
+	height: 200px;
+	background: pink;
+	margin-top: 30px;
+}
