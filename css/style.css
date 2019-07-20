@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@media (max-width: 992px)
+{
+    a.add-cart {
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+}
+
+#tab3 img {
+    width: 10%;
+}
+
+#tab3 strong {
+    font-size: 13px;
+    font-family: 'San Francisco', san-serif;
+    color: black;
+}
+
+#tab1 p {
+    font-size: 13px;
+    color: #666666;
+    font-family: 'San Francisco', san-serif;
+}
+
+a#contact-tab {
+    font-weight: 700;
+    color: #231f20;
+    font-family: 'San Francisco', san-serif;
+    font-size: 14px;
+}
+
+a#profile-tab {
+    font-weight: 700;
+    color: #231f20;
+    font-family: 'San Francisco', san-serif;
+    font-size: 14px;
+}
+
+.icon-heart:hover {
+    color: #ee5c5c;
+}
+
+.icon-heart,.icon-contact,.icon-mail {
+    cursor: pointer;
+}
+
+.icon-heart {
+    color: #797474;
+}
+
+.icon-mail:hover {
+    color: #17556c;
+}
+
+.icon-mail {
+    color: #797575;
+}
+
+.icon-contact {
+    padding: 0px 20px;
+    color: #797575 !important;
+}
+
+.icon-contact:hover {
+    color: #17556c !important;
+}
+@font-face{
+    font-family: 'San Francisco';
+    src: url('../Font Website/SANFRANCISCODISPLAY-REGULAR.OTF');
+}
+@font-face{
+    font-family: 'iCiel Gotham';
+    src: url('../Font Website/GOTHAM-MEDIUM1_1.OTF')
+}
+
+.social img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+a.btn-danhgia {
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+a#home-tab {
+    font-weight: 700;
+    color: #231f20;
+    font-family: 'San Francisco', san-serif;
+    font-size: 14px;
+}
+
+
+a.add-cart {
+    text-decoration: none;
+    color: #ffffff;
+    background: #17556c;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    font-family: 'iCielGotham', sans-serif;
+    font-size: 16px;
+    width: 80%;
+}
+
+a.add-cart:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+span.nd-danhgia {
+    font-size: 13px;
+    font-family: 'San Francisco', san-serif;
+}
+
+span.sodanhgia {
+    font-size: 13px;
+    padding: 0px 2px;
+    font-family: 'San Francisco', san-serif;
+}
+
+span.danhgia img {
+    width: 13%;
+    cursor: pointer;
+}
+
+span.price {
+    font-weight: 700;
+    font-family: 'iCielGotham', sans-serif;
+    font-size: 35px;
+}
+
+span.title-product {
+    font-size: 26px;
+    color: #221f1f;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: 'San Francisco', san-serif;
+}
+
+span.maso {
+    color: #728e9b;
+    font-family: 'San Francisco', san-serif;
+    font-size: 16px;
+}
+
+span.status {
+    color: #ec8c4a;
+    padding-right: 20px;
+    font-family: 'San Francisco', san-serif;
+    font-size: 16px;
+}
+
+.icon-next {
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    color: #676767;
+    cursor: pointer;
+}
+
+.icon-next:hover {
+    color: #17556c;
+}
+
+.icon-prev:hover {
+    color: #17556c;
+}
+
+.icon-prev {
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    color: #676767;
+    cursor: pointer;
+}
+
+.img-main {
+    background: #f1f1f1;
+    position: relative;
+    height: 510px;
+}
+
+.list-img img {
+    padding: 20px 30px 30px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-img li {
+    width: 85px;
+    background: #f1f1f1;
+    height: 90px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.img-main img {
+    object-fit: cover;
+    padding: 30% 15% 20% 15%;
+}
+.nav{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'San Francisco', san-serif;
+    font-size: 14px;
+}
+.chi-tiet-sp{
+    margin: 40px 0px;
+}
+#tab2 strong{
+     font-family: 'San Francisco', san-serif;
+     font-size: 13px;
+}
+#tab2 span{
+     font-family: 'San Francisco', san-serif;
+     font-size: 13px;
+}
+form input.btn-write{
+    background: #17556c;
+    color: #fff;
+    width: 30%;
+    padding: 10px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
